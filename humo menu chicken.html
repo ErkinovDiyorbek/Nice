@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Humo menu</title>
+	<link rel="stylesheet" href="humo project.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+
+<body>
+
+	<!-- Header / Navbar -->
+	<header>
+		<nav class="navbar section-content">
+			<a href="humo project.html" class="nav-logo">
+				<h2 class="logo-text">🍽 Humo🦅</h2>
+			</a>
+			<ul class="nav-menu">
+
+				<button id="menu-close-button" class="fas fa-times"></button>
+
+				<li class="nav-item">
+					<a href="humo project.html" class="nav-link">Asosiy</a>
+				</li>
+				<li class="nav-item">
+					<a href="humo menu somsalar.html" class="nav-link">Somsalar</a>
+				</li>
+				<li class="nav-item">
+					<a href="humo menu ichimliklar.html" class="nav-link">Ichimliklar</a>
+				</li>
+				<li class="nav-item">
+					<a href="humo menu salatlar.html" class="nav-link">Salatlar</a>
+				</li>
+				<li class="nav-item">
+					<a href="humo menu kebab.html" class="nav-link">Kaboblar</a>
+				</li>
+				<li class="nav-item">
+					<a href="humo menu chicken.html" class="nav-link">Qovurilgan tovuq</a>
+				</li>
+				<li class="nav-item">
+					<a href="humo menu osh.html" class="nav-link">Oshlar</a>
+				</li>
+			</ul>
+
+			<div class="menu--icons">
+				<div class="cart-icon">
+					<i class="fa-solid fa-cart-shopping"></i>
+					<span>0</span>
+				</div>
+			</div>
+
+			<button id="menu-open-button" class="fas fa-bars"></button>
+
+		</nav>
+	</header>
+
+
+	<!-- Section Menu Tovuq  -->
+	<section class="menu-section" id="menu">
+		<h2 class="section-title" data-aos="zoom-out"> Qovurilgan Tovuqlar</h2>
+		<div class="section-content">
+			<ul class="menu-list">
+				<li class="menu-item">
+					<div class="card">
+						<img src="menu foto/Qovurilgan Tovuq.png" alt="" class="menu-image" height="200px">
+						<h4 class="card-title">Qovurilgan Tovuq</h4>
+
+						<div class="card--price">
+							<div class="price">60 000 so'm</div>
+							<i class="fa-solid fa-plus add-to-cart"></i>
+						</div>
+					</div>
+				</li>
+
+				<li class="menu-item">
+					<div class="card">
+						<img src="menu foto/Blyonniy.png" alt="" class="menu-image" height="200px">
+						<h4 class="card-title">Blyonniy</h4>
+
+						<div class="card--price">
+							<div class="price">65 000 so'm</div>
+							<i class="fa-solid fa-plus add-to-cart"></i>
+						</div>
+					</div>
+				</li>
+
+				<li class="menu-item">
+					<div class="card">
+						<img src="menu foto/Gril.png" alt="" class="menu-image" height="200px">
+						<h4 class="card-title">Gril</h4>
+
+						<div class="card--price">
+							<div class="price">55 000 so'm</div>
+							<i class="fa-solid fa-plus add-to-cart"></i>
+						</div>
+					</div>
+				</li>
+
+			</ul>
+		</div>
+	</section>
+
+
+
+
+
+
+
+
+	<!-- Card Sidebar section -->
+	<div class="sidebar" id="sidebar">
+		<div class="sidebar-close">
+			<i class="fa-solid fa-close"></i>
+		</div>
+		<div class="cart-menu">
+			<h3>Mening savatim</h3>
+			<div class="cart-items"></div>
+		</div>
+
+		<div class="sidebar--footer">
+			<div class="total--amount">
+				<h5>Jami</h5>
+				<div class="cart-total"> 0.00 so'm </div>
+			</div>
+			<button class="checkout-btn" id="checkoutBtn">Ro'yxatni Yuborish</button>
+		</div>
+	</div>
+
+
+
+
+
+
+
+
+
+	<!-- Cart Menu script -->
+	<script src="cart menu.js"></script>
+	<!-- Header script -->
+	<script src="humo project.js"></script>
+	<script src="https://www.paypal.com/sdk/js?client-id=your-client-id-here&components=buttons"></script>
+
+
+
+
+</body>
+
+</html>
