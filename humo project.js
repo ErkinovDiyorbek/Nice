@@ -86,7 +86,7 @@ form.addEventListener('submit', function (event) {
 		specialRequest,
 	})
 
-	fetch('http://localhost:3000/book-table', {
+	fetch('http://localhost:3001/book-table', {
 		method: 'POST',
 		headers: {
 			'Content-Type': 'application/json',
